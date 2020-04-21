@@ -1,0 +1,173 @@
+#topmenu {
+  background: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  width: 800px;
+  margin: 0px 200px;
+}
+
+a:link { 
+  color: white;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: white;
+  text-decoration: none;
+}
+
+#Bio {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introPic {
+  width: 400px;
+  float: left;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  position: relative;
+}
+
+img {
+  width: 400px;
+  height: 450px;
+  margin-right: 0px;
+  object-fit: cover;  
+}
+
+.introText {
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.introList {
+  margin-left: 20px;
+}
+
+.topText {
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+}
+
+.bottomText {
+  font-size: 60px;
+  position: absolute;
+  top: 66%;
+  left: 25.5%;
+}
+
+main {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px 200px;
+}
+
+#Achievements {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#quote1 {
+  width: 400px;
+  float: left;
+  position: relative;
+}
+
+.achText {
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+}
+
+#Experience {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#quote2 {
+  width: 400px;
+  float: left;
+  position: relative;
+}
+
+.expText {
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+}
+
+#Training {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#quote3 {
+  width: 400px;
+  float: left;
+  position: relative;
+}
+
+.traText {
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 70px 0px 40px;
+}
+
+h2 {
+  margin: 5px 0px;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  font-style: italic;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+p {
+  font-size: 15px;
+  color: #222;
+}
+
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color: white;
+  background: #222;
+  position: relative;
+  text-align: left;
+  padding: 50px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  height: 300px;
+}
+
+blockquote::before {
+  content: '\201C';
+  font-size: 110pt;
+  position: absolute;
+  left: 0;
+  top: -40px;
+}
